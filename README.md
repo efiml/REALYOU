@@ -11,61 +11,87 @@ RealYou? is a command-line tool designed to validate phone numbers using the IRB
 - Securely store and sanitize API keys
 - Display information in different formats based on user preference
 
+## Prerequisites
+
+- Python 3.6 or higher
+- Git
+
 ## Installation
 
 ### Windows (PowerShell)
 
-1. **Clone the Repository:**
+1. **Install Python**:
+    - Download and install Python from [python.org](https://www.python.org/downloads/).
+    - Verify the installation by running:
+      ```powershell
+      python --version
+      ```
+
+2. **Clone the Repository:**
     ```powershell
     git clone https://github.com/yourusername/realyou.git
     cd realyou
     ```
 
-2. **Set Up a Virtual Environment:**
+3. **Set Up a Virtual Environment:**
     ```powershell
     python -m venv venv
     .\venv\Scripts\Activate
     ```
 
-3. **Install Dependencies:**
+4. **Install Dependencies:**
     ```powershell
     pip install -r requirements.txt
     ```
 
 ### macOS
 
-1. **Clone the Repository:**
+1. **Install Python**:
+    - Download and install Python from [python.org](https://www.python.org/downloads/).
+    - Verify the installation by running:
+      ```bash
+      python3 --version
+      ```
+
+2. **Clone the Repository:**
     ```bash
     git clone https://github.com/yourusername/realyou.git
     cd realyou
     ```
 
-2. **Set Up a Virtual Environment:**
+3. **Set Up a Virtual Environment:**
     ```bash
     python3 -m venv venv
     source venv/bin/activate
     ```
 
-3. **Install Dependencies:**
+4. **Install Dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
 
 ### Linux
 
-1. **Clone the Repository:**
+1. **Install Python**:
+    - Download and install Python from your package manager.
+    - Verify the installation by running:
+      ```bash
+      python3 --version
+      ```
+
+2. **Clone the Repository:**
     ```bash
     git clone https://github.com/yourusername/realyou.git
     cd realyou
     ```
 
-2. **Set Up a Virtual Environment:**
+3. **Set Up a Virtual Environment:**
     ```bash
     python3 -m venv venv
     source venv/bin/activate
     ```
 
-3. **Install Dependencies:**
+4. **Install Dependencies:**
     ```bash
     pip install -r requirements.txt
     ```
@@ -112,6 +138,16 @@ RealYou? is a command-line tool designed to validate phone numbers using the IRB
     ```bash
     python realyou.py -p "+1234567890" -i score
     ```
+
+## Notes
+
+- Ensure the phone numbers are in international format without spaces (e.g., +1234567890).
+- The tool stores API keys securely using encryption.
+- Use the `-d` option to enable debug mode and display raw data.
+
+## Troubleshooting
+
+If you encounter issues, ensure all dependencies are installed correctly, and you have a valid API key from the IRBIS API.
 
 ## Dependencies
 
