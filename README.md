@@ -29,7 +29,7 @@ RealYou? is a command-line tool designed to validate phone numbers using the IRB
 
 2. **Clone the Repository:**
     ```powershell
-    git clone https://github.com/yourusername/realyou.git
+    git clone https://github.com/efiml/realyou.git
     cd realyou
     ```
 
@@ -55,7 +55,7 @@ RealYou? is a command-line tool designed to validate phone numbers using the IRB
 
 2. **Clone the Repository:**
     ```bash
-    git clone https://github.com/yourusername/realyou.git
+    git clone https://github.com/efiml/realyou.git
     cd realyou
     ```
 
@@ -81,7 +81,7 @@ RealYou? is a command-line tool designed to validate phone numbers using the IRB
 
 2. **Clone the Repository:**
     ```bash
-    git clone https://github.com/yourusername/realyou.git
+    git clone https://github.com/efiml/realyou.git
     cd realyou
     ```
 
