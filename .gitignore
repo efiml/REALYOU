@@ -1,0 +1,3 @@
+# Exclude API key files
+apikey.txt
+secret.key
